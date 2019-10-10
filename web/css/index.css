@@ -1,0 +1,86 @@
+body{
+	background:url(../img/time3.png);
+	background-size:cover;
+}
+.layui-container{
+	margin:5% auto;
+	width: 70%;
+	height: 100%;
+}
+.layui-row{
+	border-radius:20px;
+	box-shadow: 0px 1px 3px rgba(34, 25, 25, 0.5);
+}
+.left_img{
+	height: 550px;
+	width: 100%;
+	border-radius: 20px 0px 0px 20px;
+	margin-left: -2px;
+}
+.layui-row .left{
+	padding: 0px;
+	background-color: #FFFFFF;
+	border-radius: 20px 0px 0px 20px;
+}
+.layui-row .right{
+	height:550px;
+	padding: 0px;
+	background-color: #FFFFFF;
+	border-radius: 0px 20px 20px 0px;
+}
+.layui-tab-title{
+	border:0px;
+}
+.layui-tab-title li{
+	color:#b8b8bc;
+	font-weight:700;
+}
+.layui-tab-title .layui-this{
+	color:#4aca87;
+}
+.layui-tab-title .layui-this:after{
+	border:0px;
+}
+.layui-tab-title .layui-this span{
+	border-bottom:#4aca87;
+	border-bottom-style:solid;
+	border-bottom-width:0.125rem;
+	padding-bottom: 5px;
+}
+.layui-tab-item{
+	padding: 15% 5%;
+}
+.layui-tab-content .img{
+	
+	text-align: center;
+}
+.layui-tab-content .ul{
+	text-align: center;
+	padding: 0% 0%;
+}
+.layui-tab-content .ul li{
+	margin: 10% 0px;
+	text-align: left;
+}
+.layui-tab-content .ul li div{
+	text-align: left;
+	color:#b8b8bc;
+	font-weight:700;
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+.layui-tab-content .ul li input[type=text]{
+	height: 25px;
+	width: 97%;
+	font-size: 13px;
+	font-weight: 700;
+	border:0px;
+	border-bottom:#b8b8bc;
+	border-bottom-style:solid;
+	border-bottom-width:0.125rem;
+	padding-left: 5px;
+}
+.myBtn{
+	border-radius: 30px;
+	background-color: #2ECD70;
+}
